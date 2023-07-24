@@ -176,9 +176,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "2021 - 2023",
     points: [
-      "Studio Fitness Management App - activity schedule, and customer tracking.",
-      "Creating a portfolio and projects on Github, learning and integrating new technologies.",
-      "Taking courses independently, adapting to new platforms, and self-learning abilities.",
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining Studio Fitness Management App, activity schedule, and customer tracking.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
     ],
   },
   {
@@ -188,9 +188,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Maintenance most advanced system for managing an election campaign.",
+      "Development of EMP Election - a powerful tool designed to serve candidates in elections to achieve an uncompromising victory.",
+      "Developing and maintaining of a Projector platform that includes a variety of process and project management interfaces (PMO) and an engineering coordination system (ECS) for local/regional authorities.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },

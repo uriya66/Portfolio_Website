@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { motion } from "framer-motion";
+import { motion, transform } from "framer-motion";
 // this is a tool to add the functionality to contact form to send emails
 import emailjs from "@emailjs/browser";
 
@@ -7,6 +7,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+
+import { phone, linkedin, whatsapp, githubIcon } from "../assets";
 
 const Contact = () => {
   const formRef = useRef();
@@ -141,6 +143,54 @@ const Contact = () => {
             {/* if loading say "Sending..."  */}
             {loading ? "Sending..." : "Send"}
           </button>
+
+          <div className="flex space-x-4 absolute bottom-5 right-7 h-16 ">
+            {/* phone */}
+            <a href="tel:052-595-4399" target="_blank" rel="noreferrer">
+              <img
+                src={phone}
+                alt={"phone"}
+                className="w-[80%] h-[90%] object-contain"
+              />
+            </a>
+            {/* whatsapp */}
+            <a
+              // https://wa.link/u08flk - without message
+              href="https://wa.link/jvv915"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={whatsapp}
+                alt={"whatsapp"}
+                className="w-[90%] h-[90%] object-contain"
+              />
+            </a>
+            {/* linkedin */}
+            <a
+              href="https://www.linkedin.com/in/uriyaaz"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={linkedin}
+                alt={"linkedin"}
+                className="w-[90%] h-[90%] object-contain"
+              />
+            </a>
+            {/* github */}
+            <a
+              href="https://github.com/uriya66"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={githubIcon}
+                alt={"github"}
+                className="w-[90%] h-[90%] object-contain"
+              />
+            </a>
+          </div>
         </form>
       </motion.div>
 
@@ -152,6 +202,14 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
+      {/* 
+      <motion.div
+        // the contact box animate slides in from the left
+        variants={slideIn("down", "tween", 0.2, 1)}
+        className="absolute bottom-16 right-12 h-20 w-5/12 ... bg-black-100 p-8 rounded-2xl"
+      >
+
+      </motion.div> */}
     </div>
   );
 };

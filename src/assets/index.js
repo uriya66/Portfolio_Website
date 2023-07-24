@@ -46,6 +46,10 @@ import fruit from "./fruit1.png";
 import invanders from "./spaceInvaders.png";
 import LyricsDB from "./LyricsDbMenu.png";
 
+import phone from "./contact/phone.png";
+import linkedin from "./contact/linkedin.svg";
+import whatsapp from "./contact/whatsapp.svg";
+
 export {
   //logos
   logoUpDown,
@@ -92,4 +96,7 @@ export {
   fruit,
   invanders,
   LyricsDB,
+  phone,
+  whatsapp,
+  linkedin,
 };

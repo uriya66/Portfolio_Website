@@ -53,7 +53,10 @@ const About = () => {
         I'm a skilled software developer in JavaScript, and expertise in
         frameworks like React, Node.js. <br />
         I'm a quick learner and highly motivated and open-minded to learn new
-        technologies and face challenges.
+        technologies and face challenges. <br />
+        In addition to my degree studies, I took courses independently and
+        acquired knowledge and experience in integrating new technologies,
+        adapting to new platforms, and self-learning abilities.
         <br />
         Let's work together to bring your ideas to life!
       </motion.p>
