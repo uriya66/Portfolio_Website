@@ -190,7 +190,7 @@ const experiences = [
     points: [
       "Maintenance most advanced system for managing an election campaign.",
       "Development of EMP Election - a powerful tool designed to serve candidates in elections to achieve an uncompromising victory.",
-      "Developing and maintaining of a Projector platform that includes a variety of process and project management interfaces (PMO) and an engineering coordination system (ECS) for local/regional authorities.",
+      "Developing and maintaining a Projector platform that includes a variety of process and project management interfaces (PMO) and an engineering coordination system (ECS) for local/regional authorities.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },

@@ -144,13 +144,13 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
 
-          <div className="flex space-x-4 absolute bottom-5 right-7 h-16 ">
+          <div className="w-72 grid gap-x-6 gap-y-4 grid-cols-4 mx-2 ml-auto">
             {/* phone */}
             <a href="tel:052-595-4399" target="_blank" rel="noreferrer">
               <img
                 src={phone}
                 alt={"phone"}
-                className="w-[80%] h-[90%] object-contain"
+                className="w-[75%] h-[90%] object-contain"
               />
             </a>
             {/* whatsapp */}

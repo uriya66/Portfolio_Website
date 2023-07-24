@@ -120,7 +120,10 @@ const Works = () => {
       </div>
 
       {/* wrapper for project cards */}
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div
+        //mt-20 flex flex-wrap gap-7
+        className="mt-20 flex flex-wrap gap-7 sm:flex-col-3"
+      >
         {/* loop over for each individual project  */}
         {projects.map((project, index) => (
           <ProjectCard
