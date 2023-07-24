@@ -1,0 +1,21 @@
+    length, // Length of the line
+    decay, // How fast the line fades away
+    local, // Wether to use the target's world or local positions
+    stride, // Min distance between previous and current point
+    interval, // Number of frames to wait before next calculation
+
+    mesh, // Mesh to sample
+    count, // [Optional] Number of samples (default: 16)
+    transform, // [Optional] Transformation function. Same as in `<Sampler />`
+    weight, // [Optional] Same as in `<Sampler />`
+    instancedMesh // [Optional] Instanced mesh to scatter
+
+    size?: number // texture size (default: 256x256)
+    maxAge?: number // Max age (ms) of trail points (default: 750)
+    radius?: number // Trail radius (default: 0.3)
+    intensity?: number // Canvas trail opacity (default: 0.2)
+    interpolate?: number // Add points in between slow pointer events (default: 0)
+    smoothing?: number // Moving average of pointer force (default: 0)
+    /** Minimum pointer force (default: 0.3) */
+    minForce?: number // Minimum pointer force (default: 0.3)
+    blend?: CanvasRenderingContext2D['globalCompositeOperation'] // Blend mode (default: 'screen')
