@@ -15,4 +15,4 @@ and also:
 
 Link to a website by using Netlify: https://portfolio-ua66.netlify.app/
 
-![portfolio](https://github.com/uriya66/Portfolio_Website/assets/35742868/6e764041-7ff2-4f4a-96e9-73c1918e59d9)
+![portfolio](https://github.com/uriya66/Portfolio_Website/assets/35742868/0f434d59-da32-42d0-8ea3-e8f3f5711208)
